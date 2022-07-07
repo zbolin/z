@@ -8,7 +8,9 @@ import junit.framework.Assert;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
+
 public class AFactoryTest {
+
 
     private AFactory aFactory;
 
