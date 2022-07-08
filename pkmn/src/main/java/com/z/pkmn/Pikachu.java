@@ -2,11 +2,6 @@ package com.z.pkmn;
 
 import java.util.Random;
 
-/**
- * * 4. Pikachu attributes and behavior
- * * a. It has a 25% chance of increasing attack
- * * damage by 50%
- */
 public class Pikachu extends Pokemon {
     private static double ATTACK_INCREASE = 0.5;
 

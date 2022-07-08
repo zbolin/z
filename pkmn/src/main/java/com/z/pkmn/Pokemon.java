@@ -2,24 +2,6 @@ package com.z.pkmn;
 
 import java.util.Random;
 
-/**
- * Pokémon Features:
- * 1. Create the Pokémon classes; Pikachu and Squirtle 2. It should be easy to extend to support other Pokémon types. 3.
- * Pokémon attributes and behavior
- * a. Life Points - A “life” value that will be initialized to a random value between 50
- * and 100 at time of creation.
- * b. Attack - When it attacks, the attack value is randomized between 25 and 40
- * c. Defend -
- * When attacked, the defending Pokémon will have a 33% chance to avoid (zero) damage. If not avoided the attack damage is
- * taken from the pokémon’s life points
- * 4. Pikachu attributes and behavior
- * a. It has a 25% chance of increasing attack
- * damage by 50%
- * <p>
- * 5. Squirtle attributes and behavior
- * a. Avoid chance of 50%
- * b. Life value range of 70 – 100
- */
 public abstract class Pokemon {
 
     private static final double ATTACK_MULTIPLIER = 1.0;
@@ -29,7 +11,6 @@ public abstract class Pokemon {
     private static final int MIN_ATTACK_DMG = 25;
     private static final int MAX_ATTACK_DMG = 40;
     private int lifePoints;
-    //private double attackValue;
 
     public abstract String getNickname();
 

@@ -1,10 +1,5 @@
 package com.z.pkmn;
 
-/**
- * * 5. Squirtle attributes and behavior
- * * a. Avoid chance of 50%
- * * b. Life value range of 70 – 100
- */
 public class Squirtle extends Pokemon {
     private static final int MIN_HEALTH = 70;
     private static final int MAX_HEALTH = 100;
