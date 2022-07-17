@@ -19,4 +19,16 @@ aws s3 rm s3://984351368928/index.html
 
 aws s3 website s3://my-bucket/ --index-document index.html --error-document error.html
 
-x
+
+# Start to Finish
+acred
+set-aws-key
+CreateBucket my-bucket-account-key
+GetBuckets | pbcopy
+CopyFile BUCKET error.html
+" index.html
+" ListBucket
+Website BUCKET
+PutBucketPolicy BUCKET policy.json
+"GetBucketPolicy
+WebAddress BUCKET
