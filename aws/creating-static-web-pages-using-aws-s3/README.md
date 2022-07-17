@@ -18,3 +18,5 @@ aws s3 ls
 aws s3 rm s3://984351368928/index.html
 
 aws s3 website s3://my-bucket/ --index-document index.html --error-document error.html
+
+x
