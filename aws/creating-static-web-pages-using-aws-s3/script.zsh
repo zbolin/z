@@ -1,2 +1,0 @@
-Z = "Zach"
-Hello $Z
