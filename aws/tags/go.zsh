@@ -1,5 +1,13 @@
 Go() {
-    local image_id = :q
+    local image_id = ""
+}
+GetEc2InstanceIds() {
+
+}
+CreateImage() {
+    local instance_id = $1
+    local name = $2
+
 }
 CrateEc2() {
     local image_id = $1 # ami-xxxxxxxxx
