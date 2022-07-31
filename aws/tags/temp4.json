@@ -1,0 +1,102 @@
+{
+    "Subnets": [
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az1",
+            "AvailableIpAddressCount": 248,
+            "CidrBlock": "10.0.2.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "MapCustomerOwnedIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-04762b695ca97169b",
+            "VpcId": "vpc-0673b57bce01f8f83",
+            "OwnerId": "611030932594",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Application",
+                    "Value": "arn:aws:cloudformation:us-east-1:611030932594:stack/cfst-3062-6587f06c2ed135b7ebcbcabf7056e976/451f0cb0-10f8-11ed-a523-129b3d9bc9eb"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "cfst-3062-6587f06c2ed135b7ebcbcabf7056e976"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "subnet-b"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "SubnetB"
+                },
+                {
+                    "Key": "UserId",
+                    "Value": "14612464"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:611030932594:stack/cfst-3062-6587f06c2ed135b7ebcbcabf7056e976/451f0cb0-10f8-11ed-a523-129b3d9bc9eb"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:611030932594:subnet/subnet-04762b695ca97169b",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            }
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az6",
+            "AvailableIpAddressCount": 249,
+            "CidrBlock": "10.0.1.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "MapCustomerOwnedIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-09ecdee3fd5459d2e",
+            "VpcId": "vpc-0673b57bce01f8f83",
+            "OwnerId": "611030932594",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "SubnetA"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "cfst-3062-6587f06c2ed135b7ebcbcabf7056e976"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "subnet-a"
+                },
+                {
+                    "Key": "UserId",
+                    "Value": "14612464"
+                },
+                {
+                    "Key": "Application",
+                    "Value": "arn:aws:cloudformation:us-east-1:611030932594:stack/cfst-3062-6587f06c2ed135b7ebcbcabf7056e976/451f0cb0-10f8-11ed-a523-129b3d9bc9eb"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:611030932594:stack/cfst-3062-6587f06c2ed135b7ebcbcabf7056e976/451f0cb0-10f8-11ed-a523-129b3d9bc9eb"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:611030932594:subnet/subnet-09ecdee3fd5459d2e",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            }
+        }
+    ]
+}
